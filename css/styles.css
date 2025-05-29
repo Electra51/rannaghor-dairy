@@ -117,7 +117,9 @@ nav {
   gap: 22px;
 }
 .signUp_btn,
-.login_btn {
+.login_btn,
+.getStart_btn,
+.createNew_btn {
   width: 119px;
   height: 42px;
   font-weight: 500;
@@ -144,6 +146,16 @@ nav {
   color: black;
   border: 1px solid rgb(243, 243, 243);
 }
+.getStart_btn {
+  width: 145px !important;
+  color: var(--color-white);
+  background: #b65f54;
+}
+.createNew_btn {
+  width: 175px !important;
+  color: var(--color-white);
+  background: #b65f54;
+}
 .nav_item_for_mobile {
   display: none;
 }
@@ -165,7 +177,7 @@ nav {
 }
 .left_background {
   position: absolute;
-  top: 140px;
+  top: 540px;
   left: 0;
   z-index: -1;
 }
@@ -190,7 +202,7 @@ nav {
 .hero_left {
   width: 606px;
   height: 475px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .hero_head_text {
   font-size: 60px;
@@ -223,7 +235,7 @@ nav {
   object-fit: contain;
   border-radius: 16px;
   position: absolute;
-  top: 120px;
+  top: 55px;
   right: -73px;
 }
 .book_btn {
@@ -255,205 +267,13 @@ nav {
   border-radius: 10px;
 }
 
-/* tour and visa section */
-.tour_and_visa_section {
-  margin-top: 150px !important;
-  max-width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  gap: 55px;
-  height: 893px;
-}
-.tour_visa_bar {
-  border-right: 1px dashed #bbbbbb;
-}
-.tour_details {
-  height: 811px;
-  overflow: auto;
-}
-.tour-packages,
-.visa-requirements {
-  flex: 1;
-  max-width: 530px;
-}
-.tour_visa_header {
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 100%;
-  color: var(--color-primary);
-  margin-bottom: 40px !important;
-}
-.tour_visa_card {
-  height: 248px;
-  width: 530px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  margin-bottom: 20px !important;
-}
-.tour_visa_card_img {
-  width: 530px;
-  height: 142px;
-  border-radius: 10px;
-}
-.tour_visa_card_img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.tour_visa_card_title {
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: var(--color-primary);
-  margin-bottom: 10px !important;
-  margin-top: 12px;
-}
-.tour_visa_card_description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 130%;
-  letter-spacing: 0%;
-  color: var(--color-secondary);
-  margin-bottom: 16px !important;
-  margin-top: 10px;
-  text-decoration: none;
-}
-.tour_visa_card_description a {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: var(--color-active);
-  text-decoration: none;
-}
-.tour_visa_search_box {
-  display: flex;
-  align-items: center;
-  box-shadow: 0px 4px 12px 0px #0d0a2c0f;
-  background: #fff;
-  border-radius: 10px;
-  margin-bottom: 40px !important;
-  height: 60px;
-}
-.tour_visa_search_box input::placeholder {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: var(--color-primary);
-}
-input:focus {
-  outline: none;
-}
-.tour_visa_search_box input {
-  flex: 1;
-  border: none;
-  padding: 0px 16px;
-  font-size: 14px;
-}
-.search_icon {
-  background: linear-gradient(
-    38.41deg,
-    #ea6624 36.95%,
-    #ea6624 50.94%,
-    #eb6f22 58.97%,
-    #ef871c 72%,
-    #f08d1a 74.71%
-  );
-  height: 60px;
-  width: 60px;
-  border: none;
-  cursor: pointer;
-  border-bottom-left-radius: 32px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-.visa_left_background {
-  position: absolute;
-  top: 1300px;
-  right: 0;
-}
-.country-list {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 22px;
-  height: 688px;
-  overflow-y: auto;
-}
-.country-list-li {
-  border-radius: 7px;
-  height: 64px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 17px 12px;
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 100%;
-  color: var(--color-primary);
-  letter-spacing: 0%;
-  cursor: pointer;
-  transition: background 0.2s;
-  z-index: 99;
-  position: relative;
-}
-.collaspe-headline {
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: var(--color-secondary);
-  padding: 0 12px;
-}
-.collaspe-list-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 180%;
-  color: var(--color-secondary);
-  list-style-type: circle;
-}
-.collapse-ul {
-  margin-top: 20px;
-  margin-bottom: 0 !important;
-}
-.collaspe-list-text span {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 180%;
-  color: var(--color-active);
-}
-.accordion-item {
-  border: none !important;
-  background: transparent !important;
-}
-.accordian-seeMore {
-  color: #ea6724;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 14px;
-  text-decoration: none;
-}
-.accordion-body {
-  padding: 0 !important;
-  backdrop-filter: url() !important;
-}
-
-/* other service section */
-.other_service {
-  margin-top: 150px !important;
+/* share section section */
+.share_section {
+  margin-top: 170px !important;
   max-width: 1170px;
   margin: 0 auto;
 }
-.other_service_head_text {
+.share_section_head_text {
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-size: 50px;
@@ -462,19 +282,27 @@ input:focus {
   text-align: center;
   color: var(--color-primary);
 }
-.other_service_right_background {
-  position: absolute;
-  top: 2074px;
-  right: 0;
-  z-index: -1;
-}
-.other_service_details {
-  margin-top: 40px;
+
+.share_section_details {
+  /* margin-top: 40px;
+  padding: 80px 32px; */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
-.other_service_card {
+.share_section_right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.share_title span {
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--color-active);
+}
+/* .share_section_card {
   width: 270px;
   height: 228px;
   border-radius: 20px;
@@ -487,19 +315,17 @@ input:focus {
   text-decoration: none;
   align-items: center;
   background: var(--color-mobileMenubg);
-}
-.other_service_card_head_text {
+} */
+.share_title {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 36px;
   line-height: 160%;
   letter-spacing: 0%;
-  text-align: center;
-  width: 217px;
-  margin: 0 auto;
+  text-align: start;
   text-decoration: none;
   color: var(--color-primary);
 }
-.other_service_card_seeAll {
+.share_section_card_seeAll {
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
@@ -910,9 +736,7 @@ footer {
   .right_bottom_background {
     height: 100px;
   }
-  .other_service_right_background {
-    height: 100px;
-  }
+
   .hero_right {
     display: none;
   }
@@ -1099,7 +923,7 @@ footer {
   }
 
   /* other service section */
-  .other_service {
+  .share_section {
     margin-top: 100px !important;
     max-width: 343px;
     margin: 0 auto;
@@ -1107,12 +931,7 @@ footer {
   .other_service_head_text {
     font-size: 26px;
   }
-  .other_service_right_background {
-    position: absolute;
-    top: 2131px;
-    right: 0;
-    z-index: -1;
-  }
+
   .other_service_card {
     gap: 18px;
   }
@@ -1470,9 +1289,7 @@ footer {
   .right_bottom_background {
     height: 100px;
   }
-  .other_service_right_background {
-    height: 100px;
-  }
+
   .hero_right {
     display: none;
   }
@@ -1667,12 +1484,7 @@ footer {
   .other_service_head_text {
     font-size: 26px;
   }
-  .other_service_right_background {
-    position: absolute;
-    top: 2131px;
-    right: 0;
-    z-index: -1;
-  }
+
   .other_service_card {
     gap: 18px;
   }
@@ -2183,12 +1995,7 @@ footer {
   .other_service_head_text {
     font-size: 27px;
   }
-  .other_service_right_background {
-    position: absolute;
-    top: 2074px;
-    right: 0;
-    z-index: -1;
-  }
+
   .other_service_details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
