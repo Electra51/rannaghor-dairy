@@ -152,7 +152,7 @@ nav {
   background: #b65f54;
 }
 .createNew_btn {
-  width: 175px !important;
+  width: 185px !important;
   color: var(--color-white);
   background: #b65f54;
 }
@@ -282,13 +282,38 @@ nav {
   text-align: center;
   color: var(--color-primary);
 }
-
+.menu-text {
+  background: #fffefe;
+  width: 260px;
+  gap: 33;
+  padding: 30px 30px;
+  border-radius: 20px;
+  position: relative;
+  margin-left: 50px;
+  z-index: -1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.menu-para {
+  margin-left: 28px;
+}
+.menu-para-item-name {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.menu-para-item-name2 {
+  font-size: 13px;
+  margin-top: -6px;
+  color: #7c7c7c;
+}
+.menu-para-item-name3 {
+  font-size: 20px;
+  margin-top: 4px;
+  color: var(--color-active);
+}
 .share_section_details {
-  /* margin-top: 40px;
-  padding: 80px 32px; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  display: flex;
+  gap: 80px;
 }
 .share_section_right {
   width: 100%;
@@ -301,6 +326,77 @@ nav {
   font-weight: 600;
   font-size: 36px;
   color: var(--color-active);
+}
+.menu-item-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #c59d96;
+  position: absolute;
+  top: 10;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 70px;
+}
+.stat-title {
+  font-family: "Reggae One", system-ui;
+  font-size: 16px;
+}
+.stat-number {
+  font-family: "Reggae One", system-ui;
+  font-size: 19px;
+  color: var(--color-active);
+}
+.bar {
+  height: 90%;
+  border: 0.5px solid var(--color-active);
+}
+.create-tags {
+  margin-top: 40px;
+}
+.create-new-tagline {
+  font-family: "Reggae One", system-ui;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.menu-item-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.menu-item-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.menu-item-share-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.buy-verticle-line {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--color-active);
+  color: white;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100%;
+  border: none;
 }
 /* .share_section_card {
   width: 270px;
