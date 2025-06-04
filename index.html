@@ -34,6 +34,11 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reggae+One&display=swap"
       rel="stylesheet" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   </head>
   <body>
     <div>
@@ -163,7 +168,7 @@
       </div>
     </section>
 
-    <!-- other service section  -->
+    <!-- share section  -->
     <section class="share_section">
       <div class="share_section_details">
         <a href="services.html#visa_consultation" class="share_section_card">
@@ -220,7 +225,49 @@
               <p class="stat-number">5,400+</p>
             </div>
           </div>
-          <!-- <div class="menu-item-share-section">
+        </div>
+      </div>
+    </section>
+
+    <section class="top_section">
+      <p class="reggae-one-regular share_title">
+        Top Rated <span class="reggae-one-regular">Recipes</span>
+      </p>
+      <div class="top-rated-content" id="recipeContainer"></div>
+    </section>
+
+    <section class="top_section">
+      <div class="try-section">
+        <div class="left">
+          <p class="reggae-one-regular section_title">
+            Try This with Your <span class="reggae-one-regular">Recipes</span>
+          </p>
+          <p class="reggae-one-regular share_title2">
+            Cooking Grilled Chicken OR Fruits Salad?
+          </p>
+          <p
+            class="reggae-one-regular"
+            style="padding-right: 36px; margin-top: 5px">
+            Grilled butter chicken pair it with Garlic Naan and fruit salad with
+            sweet souce. Delicious dishes tailored to your taste. Discover
+            must-try recipes picked by our experts & loved by users like you!
+          </p>
+          <ul class="mt-4 reggae-one-regular">
+            <li class="reggae-one-regular">
+              Juicy grilled chicken served with soft, buttery naan.
+            </li>
+            <li class="reggae-one-regular">
+              Delicious and easy to cook! Loved it with naan.
+            </li>
+
+            <li class="reggae-one-regular">
+              Refreshing fruit salad with a sweet citrus glaze.
+            </li>
+            <li class="reggae-one-regular">
+              🥦 200 cal | 💪 15g protein | 🧂 Low Sodium
+            </li>
+          </ul>
+          <div class="menu-item-share-section">
             <div class="menu-item-card">
               <div class="menu-item-img">
                 <img src="./images/home-page-images/grilled.jpg" alt="" />
@@ -247,345 +294,62 @@
                 <button class="buy-verticle-line">Buy Now</button>
               </div>
             </div>
-          
-          </div> -->
+          </div>
+        </div>
+        <div class="right">
+          <p class="reggae-one-regular section_title">Watch How To Cook</p>
+          <div class="mt-3">
+            <div class="recipe-watch">
+              <img src="./images/home-page-images/grilled-chiken.jpeg" alt="" />
+              <div class="watch-overlay">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                font-size: 14px;
+                gap: 4px;
+              ">
+              <div class="mt-3 reggae-one-regular">
+                <p
+                  class=""
+                  style="font-size: 24px; font-weight: 600; margin-bottom: 3px">
+                  Garlic Butter Chicken
+                </p>
+                ⏰ Prep Time: <strong>45 min</strong>
+              </div>
+              <div class="reggae-one-regular">
+                ⭐ Rating: <strong>4.7/5</strong> (120 reviews)
+              </div>
+              <div class="watch-bar my-3"></div>
+              <div>
+                <p class="recipe-time-head">Opening Time:</p>
+
+                <div class="mt-2">
+                  <div class="d-flex gap-2">
+                    <strong class="reggae-one-regular">Mon – Fri:</strong>
+                    <p class="reggae-one-regular">10:00 AM – 10:00 PM</p>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <strong class="reggae-one-regular">Saturday:</strong>
+                    <p class="reggae-one-regular">9:00 AM – 11:00 PM</p>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <strong class="reggae-one-regular">Sunday:</strong>
+                    <p class="reggae-one-regular">Closed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- <section class="Share_section">
-      <h2 class="other_service_head_text">Other Services</h2>
-      <div class="other_service_details">
-        <a href="services.html#visa_consultation" class="other_service_card">
-          <img
-            src="./images/home-page-images/visa_consultation.png"
-            alt=""
-            class="other_service_img" />
-          <p class="other_service_card_head_text">
-            Visa Consultation & Processing
-          </p>
-        </a>
-        <a class="other_service_card" href="services.html#tour_plan_pakage">
-          <img
-            src="./images/home-page-images/tour_planning.png"
-            alt=""
-            class="other_service_img" />
-          <p class="other_service_card_head_text">Tour Planning & Packages</p>
-        </a>
-        <a class="other_service_card" href="services.html#documentation">
-          <img
-            src="./images/home-page-images/documentation.png"
-            alt=""
-            class="other_service_img" />
-          <p class="other_service_card_head_text">
-            Documentation & Embassy Support
-          </p>
-        </a>
-        <a class="other_service_card" href="services.html#pre_departure">
-          <img
-            src="./images/home-page-images/pre-departure.png"
-            alt=""
-            class="other_service_img" />
-          <p class="other_service_card_head_text">
-            Pre-Departure & Travel Assistance
-          </p>
-        </a>
-        <a class="other_service_card" href="services.html#corporate_travel">
-          <img
-            src="./images/home-page-images/corporate_business.png"
-            alt=""
-            class="other_service_img" />
-          <p class="other_service_card_head_text">
-            Corporate & Business Travel
-          </p>
-        </a>
-        <a class="other_service_card" href="services.html#tourist_visa">
-          <img
-            src="./images/home-page-images/tourist.png"
-            alt=""
-            class="other_service_img" />
-          <p class="other_service_card_head_text">Tourist & Visitor Visas</p>
-        </a>
-        <a class="other_service_card" href="services.html#assistance">
-          <img
-            src="./images/home-page-images/document_asistence.png"
-            alt=""
-            class="other_service_img" />
-          <p class="other_service_card_head_text">Document Assistance</p>
-        </a>
-        <a class="other_service_card" href="./services.html">
-          <p class="other_service_card_seeAll">See All Services</p>
-        </a>
-      </div>
-    </section> -->
-    <!-- why choose section  -->
-    <!-- <section class="why_choose_section">
-      <div class="why_choose">
-        <p class="why_choose_header">Why Choose Global Travel Bangladesh?</p>
-        <div class="why_choose_description">
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Trusted by 10,000+ clients across Bangladesh</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>High visa approval rates</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Experienced counselors & up-to-date embassy info</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Up-to-date visa guidance</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Personalized support for each traveler</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Error-free documentation</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Transparent pricing — no hidden fees</span>
-          </p>
-        </div>
-        <p class="why_choose_bottom_text">
-          From Bangladesh to the world — we make global travel easier for you.
-        </p>
-      </div>
-      <div class="why_choose_bar"></div>
-      <div class="why_choose">
-        <p class="why_choose_header">Countries We Cover</p>
-        <div class="why_choose_description">
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>USA, Canada, Mexico</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>UK, Germany, France, Italy, Schengen countries</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Australia, New Zealand, Japan, South Korea, Singapore</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>UAE, Saudi Arabia, South Africa, Egypt</span>
-          </p>
-          <p class="why_choose_point">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.00091 10.801L3.20091 8.00104L2.26758 8.93437L6.00091 12.6677L14.0009 4.66771L13.0676 3.73438L6.00091 10.801Z"
-                fill="#3A72B7" />
-            </svg>
-            <span>Brazil, Argentina, Chile</span>
-          </p>
-        </div>
-        <p class="why_choose_bottom_text">
-          Don’t see your destination? Contact us — we likely cover it too!
-        </p>
-      </div>
-    </section> -->
-    <!-- about us section -->
-    <!-- <section class="ready_to_travel" id="about_section">
-      <div class="ready_container">
-        <div>
-          <h3 class="head_text">Ready to Travel?</h3>
-          <p class="head_p">
-            Let us take the stress out of your travel prep. Whether you’re a
-            first-time traveler or a frequent flyer, our visa experts will make
-            sure your paperwork is perfect and your journey smooth.
-          </p>
-          <p class="head_contact_call">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_462_1639)">
-                <path
-                  d="M14.6667 11.2797V13.2797C14.6675 13.4654 14.6294 13.6492 14.555 13.8193C14.4807 13.9894 14.3716 14.1421 14.2348 14.2676C14.0979 14.3932 13.9364 14.4887 13.7605 14.5482C13.5847 14.6077 13.3983 14.6298 13.2134 14.6131C11.1619 14.3902 9.19137 13.6892 7.46004 12.5664C5.84926 11.5428 4.48359 10.1772 3.46004 8.56641C2.33336 6.82721 1.6322 4.84707 1.41337 2.78641C1.39671 2.60205 1.41862 2.41625 1.4777 2.24082C1.53679 2.0654 1.63175 1.9042 1.75655 1.76749C1.88134 1.63077 2.03324 1.52155 2.20256 1.44675C2.37189 1.37196 2.55493 1.33325 2.74004 1.33307H4.74004C5.06357 1.32989 5.37723 1.44446 5.62254 1.65543C5.86786 1.8664 6.02809 2.15937 6.07337 2.47974C6.15779 3.11978 6.31434 3.74822 6.54004 4.35307C6.62973 4.59169 6.64915 4.85102 6.59597 5.10033C6.5428 5.34964 6.41928 5.57848 6.24004 5.75974L5.39337 6.60641C6.34241 8.27544 7.72434 9.65737 9.39337 10.6064L10.24 9.75974C10.4213 9.5805 10.6501 9.45697 10.8994 9.4038C11.1488 9.35063 11.4081 9.37004 11.6467 9.45974C12.2516 9.68544 12.88 9.84199 13.52 9.92641C13.8439 9.97209 14.1396 10.1352 14.3511 10.3847C14.5625 10.6343 14.6748 10.9528 14.6667 11.2797Z"
-                  stroke="#002D72"
-                  stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </g>
-              <defs>
-                <clipPath id="clip0_462_1639">
-                  <rect width="16" height="16" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-            <span>Contact us today</span> for a consultation or
-            <span>start your visa application now!</span>
-          </p>
-        </div>
-        <div class="ready_img">
-          <img src="./images/home-page-images/Image.png" alt="" />
-        </div>
-      </div>
-    </section> -->
-    <!-- about us section -->
-    <!-- <section class="about_section" id="about_section">
-      <img
-        src="./images/home-page-images/about-left-bottom.png"
-        alt="left background img"
-        class="about_left_background" />
-      <img
-        src="./images/home-page-images/about_right_bottom_pattern.png"
-        alt="left background img"
-        class="about_right_background" />
-      <div class="about_container">
-        <h2 class="other_service_head_text">About Us</h2>
-        <div class="about_details">
-          <div class="about_left">
-            <img
-              src="./images/home-page-images/about-section-left-image.png"
-              alt="" />
-          </div>
-          <div class="about_right">
-            <p class="about_right_text">
-              Global Travel Bangladesh is a trusted name in the travel industry,
-              offering end-to-end solutions for flights, tour packages, and visa
-              assistance. With years of experience and a customer-first
-              approach, we ensure every journey is smooth, affordable, and
-              unforgettable.
-            </p>
-            <p class="about_right_text2">
-              From weekend getaways to international adventures — Global Travel
-              Bangladesh brings the world closer to you. We specialize in
-              ticketing, tailor-made tours, and visa support, making travel
-              planning stress-free and enjoyable.
-            </p>
-            <p class="about_right_text2">
-              Planning your next trip? Global Travel Bangladesh has your back.
-              With easy booking, reliable service, and unbeatable prices, we
-              make every travel experience better — whether you're flying solo
-              or in a group.
-            </p>
-            <p class="about_right_text2">
-              Global Travel Bangladesh helps you fly farther and travel smarter.
-              We offer airline tickets, custom tours, and visa assistance — all
-              under one roof...<span
-                ><a href="./about.html" class="for-mobile-readMore">
-                  Read More</a
-                ></span
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <!-- footer section -->
-    <!-- <footer class="footer_section" id="#hero">
+    <footer class="footer_section" id="#hero">
       <img
         src="./images/home-page-images/footer-right-pattern.svg"
         alt="right background img"
@@ -659,7 +423,7 @@
           </a>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- Sidebar Menu -->
     <div id="mobileMenu" class="mobile_menu">
       <img
