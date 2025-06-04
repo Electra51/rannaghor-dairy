@@ -568,7 +568,6 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
   gap: 20px;
-  height: 100vh;
   padding: 4px;
 }
 
