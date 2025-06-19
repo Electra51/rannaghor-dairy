@@ -467,6 +467,167 @@ nav {
   margin: 0 auto;
   padding: 30px 15px;
 }
+.bg_top_section {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.bg-section1 {
+  position: relative;
+  margin-top: 170px !important;
+  margin: 0 auto;
+  padding: 30px 15px;
+  background: #ffeae7;
+  background: -webkit-linear-gradient(to right, #ffeae7, #fcd8d2);
+  background: linear-gradient(to left, #ffeae7, #f5dcd8);
+  height: 600px;
+}
+.bg-section2 {
+  position: relative;
+  margin-top: 170px !important;
+  margin: 0 auto;
+  padding: 30px 15px;
+
+  height: 600px;
+}
+.subscription-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  gap: 20px;
+}
+.subscription-text {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Reggae One", system-ui;
+  text-wrap: wrap;
+  width: 550px;
+  text-align: center;
+}
+.subscription-form {
+  width: 500px;
+  position: relative;
+}
+.subscription-input:focus {
+  outline: none;
+}
+.subscription-input {
+  border: 1px solid rgb(243, 243, 243);
+  height: 58px;
+  width: 100%;
+  padding: 0 12px;
+  border-radius: 8px;
+}
+.subscription-button {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  height: 40px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--color-active);
+  color: white;
+}
+.shape-pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.shape-pattern-bowl2 {
+  position: absolute;
+  top: -105px;
+  left: 8px;
+}
+.shape-pattern-bowl1 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.promo-heading {
+  font-family: "Reggae One", system-ui;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 600;
+  position: absolute;
+  top: 150px;
+  left: 460px;
+  color: white;
+  width: 600px;
+}
+.promo-text {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  top: 350px;
+  left: 660px;
+  color: var(--color-secondary);
+  width: 550px;
+}
+.promo-button {
+  position: absolute;
+  top: 440px;
+  left: 860px;
+  color: white;
+  background: var(--color-active);
+  /* width: 550px; */
+  width: 150px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  border-radius: 7px;
+}
+.bowl-off {
+  font-family: "Reggae One", system-ui;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  top: 360px;
+  left: 340px;
+  width: 200px;
+}
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+  margin-top: 70px;
+  gap: 30px;
+}
+.category-img-holder {
+  height: 120px;
+  width: 120px;
+  border-radius: 40%;
+}
+.category-img-holder img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.category-title {
+  text-align: center;
+  font-family: "Reggae One", system-ui;
+  font-size: 18px;
+  margin-top: 10px;
+}
 .recommanded_section {
   margin-top: 170px !important;
   max-width: 1170px;
@@ -739,11 +900,22 @@ nav {
   margin-top: 35px;
 }
 .item3 {
-  border: 1px solid red;
-  height: 260px;
+  height: 220px;
   border-radius: 12px;
-  margin-top: 150px;
+  margin-top: 190px;
+  background: #f5f8f7;
+  padding: 16px 14px;
 }
+.item3-below-icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #fce5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .item4 {
   height: 340px;
   border-radius: 12px;
@@ -760,6 +932,16 @@ nav {
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
+}
+.item3-list1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 6px;
+  background: #fff;
+  height: 50px;
+  border-radius: 12px;
+  padding: 6px;
 }
 .step-1 {
   border-radius: 13px;
