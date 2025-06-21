@@ -20,7 +20,7 @@ p {
 }
 :root {
   --color-primary: #201c17;
-  --color-secondary: #2d2d2d;
+  --color-secondary: #514f4f;
   --color-active: #b65f54;
   --color-white: #ffffff;
   --color-mobileMenubg: #fffaf8;
@@ -76,7 +76,6 @@ nav {
   align-items: center;
   gap: 88px;
 }
-
 .logo {
   width: 160px;
   height: 81px;
@@ -89,7 +88,6 @@ nav {
 .nav_item-ul {
   list-style: none;
   display: flex;
-  /* justify-content: end; */
   align-items: center;
   gap: 63px;
   margin-bottom: 0px !important;
@@ -394,6 +392,7 @@ nav {
   font-family: "Reggae One", system-ui;
   font-size: 15px;
   margin-top: 8px;
+  color: var(--color-secondary);
 }
 .menu-item-img img {
   height: 100%;
@@ -560,8 +559,9 @@ nav {
   width: 600px;
 }
 .promo-text {
+  font-family: "Reggae One", system-ui;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   position: absolute;
   top: 350px;
@@ -570,6 +570,7 @@ nav {
   width: 550px;
 }
 .promo-button {
+  font-family: "Reggae One", system-ui;
   position: absolute;
   top: 440px;
   left: 860px;
@@ -611,6 +612,12 @@ nav {
   margin-top: 70px;
   gap: 30px;
 }
+.grilled {
+  color: var(--color-spanText);
+}
+.grilled-li {
+  color: var(--color-secondary);
+}
 .category-img-holder {
   height: 120px;
   width: 120px;
@@ -647,6 +654,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .book-mark {
   background: #e9e8e8;
   padding: 4px 7px;
@@ -2871,3 +2879,20 @@ footer {
     color: var(--color-secondary);
   }
 }
+/* @media (min-width: 1440px) {
+  .promo-heading {
+    left: 920px;
+  }
+  .promo-text {
+    left: 1158px;
+  }
+  .promo-button {
+    left: 1350px;
+  }
+  .bowl-off {
+    left: 806px;
+  }
+  .shape-pattern-bowl2 {
+    width: 894px;
+  }
+} */
