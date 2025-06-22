@@ -649,6 +649,10 @@ nav {
   border-top-right-radius: 13px;
   position: relative;
 }
+.chef-name-title {
+  font-size: 18px;
+  font-weight: 600;
+}
 .recipe-reaction {
   display: flex;
   justify-content: space-between;
@@ -1153,9 +1157,7 @@ nav {
 /* footer section */
 footer {
   margin-top: 150px;
-  background-color: var(--color-mobileMenubg);
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
+  background-color: #fae6e3;
   height: 441px;
   position: relative;
 }
@@ -1163,7 +1165,8 @@ footer {
   border-top-right-radius: 80px;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
+  transform: rotate(90deg);
 }
 .footer-container {
   display: flex;
@@ -1245,6 +1248,7 @@ footer {
 }
 .footer-bottom {
   border-top: 1px solid var(--color-active);
+  background-color: var(--color-active);
 }
 .footer-bottom-container {
   display: flex;
@@ -1259,13 +1263,13 @@ footer {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0%;
-  color: var(--color-secondary);
+  color: white;
 }
 .scroll-top {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  border: 1px solid var(--color-active);
+  border: 1px solid white;
   text-decoration: none;
   color: var(--color-active);
   display: flex;
@@ -1722,7 +1726,7 @@ footer {
     max-width: 344px;
     margin: 0 auto;
     gap: 14px;
-    height: calc(499px - 64px);
+    height: calc(550px - 64px);
     padding: 24px 22px;
   }
   .footer-left {
